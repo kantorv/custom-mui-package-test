@@ -1,5 +1,5 @@
 {
-  "name": "custom-mui-package",
+  "name": "custom-mui-lib",
   "description": "",
   "version": "0.0.1",
   "author": "kantorv",
@@ -129,5 +129,10 @@
     "trim": ">=0.0.3",
     "trim-newlines": ">=3.0.1",
     "yaml": ">=2.2.2"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.10"
   }
 }
