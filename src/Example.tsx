@@ -11,9 +11,13 @@ export function Example(props: ExampleProps) {
   const [count, setCount] = React.useState(0);
   return (
     <Button
-      variant="outlined"
+      variant="contained"
+      fullWidth
       onClick={() => setCount(count + 1)}
       id="example-button"
+      sx={{
+        background: 'maroon',
+      }}
     >
       {`${props.text} ${count}`}
     </Button>
